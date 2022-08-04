@@ -78,24 +78,44 @@ const Info = () => {
           )
         })}
       </motion.div>
-      {info.map(item => {
-        return (
-          <div key={item.title}>
-            <motion.div variants={infoItem} className="rounded-xl mb-primary">
-              <Card>
-                <div className="p-primary">
-                  <div className="w-max">
-                    <Pill>
-                      <h2 className="uppercase">{item.title}</h2>
-                    </Pill>
-                  </div>
-                  <p className="mt-primary">{item.content}</p>
-                </div>
-              </Card>
-            </motion.div>
+      <motion.div variants={infoItem} className="rounded-xl mb-primary">
+        <Card>
+          <div className="p-primary">
+            <div className="w-max">
+              <Pill>
+                <h2 className="uppercase">About</h2>
+              </Pill>
+            </div>
+            <p className="mt-primary">
+              Patrick Mason is a multi-disciplinary creative with a focus on
+              website design and development. He collaborates with cultural,
+              commercial and individual clients to create engaging and
+              conceptual designs. His work has been featured on{" "}
+              <a
+                className="underline"
+                href="https://www.itsnicethat.com/articles/double-click-october-2021-archives-digital-291021"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                It's Nice That
+              </a>{" "}
+              and{" "}
+              <a
+                className="underline"
+                href="https://www.hoverstat.es/features/the-global-studio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hoverstat.es
+              </a>
+              .
+            </p>
+            <p className="mt-primary">
+              He lives and works on unceded Gadigal land, Eora (Sydney)
+            </p>
           </div>
-        )
-      })}
+        </Card>
+      </motion.div>
     </motion.div>
   )
 }

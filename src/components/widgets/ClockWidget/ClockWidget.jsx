@@ -45,7 +45,7 @@ const ClockWidget = () => {
                 </div>
               </motion.div>
             )}
-            <motion.div layout className="flex justify-center">
+            <motion.div layout className="flex justify-center p-primary">
               <div
                 onClick={() => setIsOpen(prev => !prev)}
                 className={cx("w-full", { "w-1/2": isOpen })}

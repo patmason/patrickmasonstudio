@@ -3,6 +3,6 @@ title: The Global Studio
 avatar: ../media/avatar/avatar.png
 videoSrcURL: ../media/video/global.mp4
 videoTitle: Global Studio
-tags: ["Gatsby", "React"]
+tags: ["Gatsby", "React", "Portfolio"]
 link: "http://globalstudio2020.utsphotography.com"
 ---

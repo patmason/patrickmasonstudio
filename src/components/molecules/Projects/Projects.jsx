@@ -76,7 +76,10 @@ const Projects = ({ handleProjectSelect }) => {
       <div className="flex w-full gap-primary p-primary cursor-grab">
         <div className="flex flex-col w-1/4 px-2 cursor-pointer shrink-0">
           <AspectRatio ratio={100}>
-            <a href="mailto:patrickm.mason@gmail.com" rel="noopener noreferrer">
+            <a
+              href="mailto:hello@patrickmason.studio"
+              rel="noopener noreferrer"
+            >
               <div
                 style={{
                   boxShadow: darkMode ? boxShadow.on_dark : boxShadow.on_light,

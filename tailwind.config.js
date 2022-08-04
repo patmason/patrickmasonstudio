@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         dark_text: "#1C1C1C",
-        light_bg: "#F0F0F0",
+        light_bg: "#F3F3F3",
         dark_bg: "#212226",
         spearmint: "#D2EAE4",
         lavender: "#D7D2EA",

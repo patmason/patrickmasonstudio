@@ -5,8 +5,10 @@ import EmailIcon from "../images/socialsIcons/EmailIcon"
 export const info = [
   {
     title: "About",
-    content:
+    content: [
       "Patrick Mason partners with cultural, commercial and individual clients to create engaging and memorable designs.",
+      "His work has been featured on 'It's Nice That' and 'Hoverstat.es'",
+    ],
   },
   // {
   //   title: "Roles",
@@ -32,6 +34,6 @@ export const socials = [
   {
     title: "Email",
     icon: EmailIcon,
-    link: "mailto:patrickm.mason@gmail.com",
+    link: "mailto:hello@patrickmason.studio",
   },
 ]
