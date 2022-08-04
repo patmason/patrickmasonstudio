@@ -1,7 +1,7 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import "./src/styles/index.scss"
+import React from "react"
+import AppState from "./src/context/AppState"
 
-// You can delete this file if you're not using it
+export const wrapRootElement = ({ element }) => {
+  return <AppState>{element}</AppState>
+}
