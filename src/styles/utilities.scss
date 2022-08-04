@@ -1,0 +1,13 @@
+.dm_transition {
+  transition-property: background-color, color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.dm_transition_w_box_shadow {
+  transition-property: box-shadow, background-color, color, background-color,
+    border-color, text-decoration-color, fill, stroke;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+}

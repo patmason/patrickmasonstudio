@@ -1,20 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Patrick Mason Studio`,
+    description: `Patrick Mason partners with cultural, commercial and individual clients to create engaging and memorable designs. Based in Eora (Sydney), Australia.`,
+    author: `Patrick Mason`,
+    siteUrl: `https://patrickmason.studio`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `projects`,
+        path: `${__dirname}/src/data/projects/`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -28,7 +31,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/avatar/me.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
