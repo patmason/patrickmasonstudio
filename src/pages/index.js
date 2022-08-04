@@ -13,13 +13,13 @@ const IndexPage = () => {
     <>
       <Seo title="Home" />
       <div
-        className={cx("antialiased", {
+        className={cx("antialiased h-full", {
           dark: state.darkMode,
         })}
       >
-        <div className="bg-light_bg dark:bg-dark_bg text-dark_text dark:text-light_bg min-h-[100vh] dm_transition">
-          <div className="flex flex-col items-start justify-between md:flex-row gap-primary p-primary">
-            <div className="flex flex-col w-full md:w-1/3 shrink-0">
+        <div className="bg-light_bg dark:bg-dark_bg text-dark_text dark:text-light_bg min-h-[100vh] h-full dm_transition">
+          <div className="flex flex-col items-start justify-between h-full md:flex-row gap-primary p-primary">
+            <div className="flex flex-col w-full h-full md:w-1/3 shrink-0">
               <LayoutGroup>
                 <ClockWidget />
                 <ProjectsWidget />
