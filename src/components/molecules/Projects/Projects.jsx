@@ -74,7 +74,7 @@ const Projects = ({ handleProjectSelect }) => {
   return (
     <div ref={emblaRef} className="relative overflow-hidden">
       <div className="flex w-full gap-primary p-primary cursor-grab">
-        <div className="flex flex-col w-1/4 gap-2 px-2 cursor-pointer shrink-0">
+        <div className="flex flex-col w-1/4 px-2 cursor-pointer shrink-0">
           <AspectRatio ratio={100}>
             <a href="mailto:patrickm.mason@gmail.com" rel="noopener noreferrer">
               <div
@@ -100,19 +100,19 @@ const Projects = ({ handleProjectSelect }) => {
               </div>
             </a>
           </AspectRatio>
-          <h2 className="text-center truncate">Add Project</h2>
+          <h2 className="mt-2 text-center truncate">Add Project</h2>
         </div>
         {projects.map(project => {
           return (
             <div
               onClick={() => handleProjectSelect(project)}
               key={project.childMarkdownRemark.id}
-              className="flex flex-col w-1/4 gap-2 cursor-pointer shrink-0 last:mr-primary"
+              className="flex flex-col w-1/4 cursor-pointer shrink-0 last:mr-primary"
             >
               <motion.div
                 layout
                 layoutId={`${project.childMarkdownRemark.id}_avatar`}
-                className="px-2"
+                className="px-2 mb-2"
               >
                 <Avatar
                   image={

@@ -59,11 +59,11 @@ const Info = () => {
     >
       <motion.div
         variants={infoItem}
-        className="flex justify-between gap-primary my-primary"
+        className="flex justify-between my-primary"
       >
         {socials.map(item => {
           return (
-            <div className="flex-1" key={item}>
+            <div className="flex-1 mr-primary last:mr-0" key={item}>
               <a href={item.link} rel="noopener noreferrer" target="_blank">
                 <Button>
                   <motion.div
