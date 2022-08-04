@@ -21,7 +21,7 @@ const ClockWidget = () => {
 
   return (
     <>
-      <div className="relative z-10">
+      <div className="relative z-10 mb-primary">
         <Card layout>
           <div className="relative p-primary">
             {showSwitches && (

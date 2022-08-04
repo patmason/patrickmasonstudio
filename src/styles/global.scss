@@ -6,3 +6,10 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+//Setting height to 100%
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}

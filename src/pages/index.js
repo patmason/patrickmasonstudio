@@ -19,7 +19,7 @@ const IndexPage = () => {
       >
         <div className="bg-light_bg dark:bg-dark_bg text-dark_text dark:text-light_bg min-h-[100vh] dm_transition">
           <div className="flex flex-col items-start justify-between md:flex-row gap-primary p-primary">
-            <div className="flex flex-col w-full gap-primary md:w-1/3 shrink-0">
+            <div className="flex flex-col w-full md:w-1/3 shrink-0">
               <LayoutGroup>
                 <ClockWidget />
                 <ProjectsWidget />
