@@ -107,7 +107,7 @@ const Info = () => {
                 rel="noopener noreferrer"
               >
                 Hoverstat.es
-              </a>
+              </a>{" "}
               and{" "}
               <a
                 className="underline"
