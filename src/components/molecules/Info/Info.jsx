@@ -98,8 +98,8 @@ const Info = () => {
                 rel="noopener noreferrer"
               >
                 It's Nice That
-              </a>{" "}
-              and{" "}
+              </a>
+              ,{" "}
               <a
                 className="underline"
                 href="https://www.hoverstat.es/features/the-global-studio"
@@ -107,6 +107,15 @@ const Info = () => {
                 rel="noopener noreferrer"
               >
                 Hoverstat.es
+              </a>
+              and{" "}
+              <a
+                className="underline"
+                href="https://klikkentheke.com/catalogue/uts-photography/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Klikkentheke
               </a>
               .
             </p>
