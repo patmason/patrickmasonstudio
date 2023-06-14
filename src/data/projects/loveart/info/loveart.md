@@ -1,8 +1,8 @@
 ---
-title: Lauren Bamford
+title: LoveArt
 avatar: ../media/avatar/avatar.png
-videoSrcURL: ../media/video/bamford.mp4
-videoTitle: "Lauren Bamford"
+videoSrcURL: ../media/video/loveArt.mp4
+videoTitle: "LoveArt"
 tags: ["Gatsby", "Sanity", "Framer Motion", "React"]
-link: "https://www.laurenbamford.com/"
+link: "https://www.loveart.com/"
 ---
